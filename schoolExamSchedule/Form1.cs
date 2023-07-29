@@ -29,7 +29,7 @@ namespace schoolExamSchedule
 
             average = (((exam1 + exam2 + exam3) / 3) + project) / 2;
 
-            if(exam1 >= 101 || exam2 >= 101 || exam3 >= 101 || project >= 101)
+            if(exam1 > 100 || exam2 > 100 || exam3 > 100 || project > 100)
             {
                 MessageBox.Show("More than 100 numbers are not accepted");
             }
